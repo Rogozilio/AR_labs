@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "R52N50KJB5M",
+    "m_SelectedDeviceId": "ca32c482",
     "m_SelectedPackage": {
-        "deviceId": "R52N50KJB5M",
-        "name": "com.DefaultCompany.AR_rar6",
-        "processId": 32076,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,6 +18,12 @@
             "deviceId": "R52N50KJB5M",
             "name": "com.DefaultCompany.AR_rar6",
             "processId": 32076,
+            "exited": false
+        },
+        {
+            "deviceId": "ca32c482",
+            "name": "com.miui.home",
+            "processId": 11661,
             "exited": false
         }
     ],

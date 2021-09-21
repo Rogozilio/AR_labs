@@ -6,8 +6,7 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class ImageTracker : MonoBehaviour
 {
-    [SerializeField]
-    private List<GameObject> ObjectsToPlace;
+    [SerializeField] private List<GameObject> ObjectsToPlace;
 
     private int refImageCount;
     private Dictionary<string, GameObject> allObjects;
@@ -18,6 +17,7 @@ public class ImageTracker : MonoBehaviour
     private void Awake()
     {
         aRTrackedImageManager = GetComponent<ARTrackedImageManager>();
+        Instantiate(ObjectsToPlace[0]);
     }
 
     private void OnEnable()
@@ -59,7 +59,7 @@ public class ImageTracker : MonoBehaviour
     {
         Debug.Log("Tracked the target: " + imageName);
         allObjects[imageName].SetActive(true);
-        allObjects[imageName].transform.localScale = new Vector3(0.0001f, 0.0001f, 0.0001f);
+        //allObjects[imageName].transform.localScale = new Vector3(0.0001f, 0.0001f, 0.0001f);
     }
 
     private void UpdateTrackedObject(ARTrackedImage trackedImage)
@@ -69,8 +69,7 @@ public class ImageTracker : MonoBehaviour
             allObjects[trackedImage.referenceImage.name].SetActive(true);
             allObjects[trackedImage.referenceImage.name].transform.position =
                 trackedImage.transform.position;
-            allObjects[trackedImage.referenceImage.name].transform.rotation =
-                trackedImage.transform.rotation;
+            allObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
         }
         else
         {

@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "ca32c482",
+    "m_SelectedDeviceId": "R52N503KNEL",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "R52N503KNEL",
+        "name": "com.DefaultCompany.AR_rar6",
+        "processId": 18907,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -24,6 +24,96 @@
             "deviceId": "ca32c482",
             "name": "com.miui.home",
             "processId": 11661,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 12483,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 12484,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 9421,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 10364,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 11760,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 14978,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 15449,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 15852,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 16360,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 16768,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 17384,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 17759,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 18157,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 18534,
+            "exited": false
+        },
+        {
+            "deviceId": "R52N503KNEL",
+            "name": "com.DefaultCompany.AR_rar6",
+            "processId": 18907,
             "exited": false
         }
     ],

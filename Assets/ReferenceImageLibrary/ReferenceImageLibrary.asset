@@ -12,16 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: ReferenceImageLibrary
   m_EditorClassIdentifier: 
-  m_GuidLow: 4910778241892627614
-  m_GuidHigh: 13347980078196518567
+  m_GuidLow: 4843271565315035238
+  m_GuidHigh: 14581363174889956993
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5507719761803029439
-      m_GuidHigh: 4510183702141645977
+      m_GuidLow: 5687819246458913875
+      m_GuidHigh: 14531136545731604613
     m_SerializedTextureGuid:
       m_GuidLow: 6729597457989963989
       m_GuidHigh: 9262206136751178986
     m_Size: {x: 0.1, y: 0.16176471}
     m_SpecifySize: 1
     m_Name: Cart
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5355762755508147026
+      m_GuidHigh: 7189127863316966023
+    m_SerializedTextureGuid:
+      m_GuidLow: 16786135680621801407
+      m_GuidHigh: 1546325426851466923
+    m_Size: {x: 0.1, y: 0.03623047}
+    m_SpecifySize: 1
+    m_Name: Car
     m_Texture: {fileID: 0}

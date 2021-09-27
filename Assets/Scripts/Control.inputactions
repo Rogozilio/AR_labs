@@ -1,0 +1,79 @@
+{
+    "name": "Control",
+    "maps": [
+        {
+            "name": "Car",
+            "id": "cb46c968-a4bd-4751-b470-42b45757cae8",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "fd8c284d-a11c-4c7c-a918-b4decec415f3",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Shot",
+                    "type": "Value",
+                    "id": "79ad53a1-3ba0-4eff-8f8b-ef26d8dad996",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c6f302da-b9ca-4fa7-b6b6-d5cf8d5b79c7",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b2bc8517-820c-4386-a608-70afe92443b3",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Touch",
+            "id": "74e4078a-eb95-4378-9f79-33e1feccfebd",
+            "actions": [
+                {
+                    "name": "Touch",
+                    "type": "Button",
+                    "id": "2e625eb7-b89e-4ec9-aa3a-c0141989a808",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5e05049d-e1aa-4cc4-abda-c707442321ce",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
